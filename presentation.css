@@ -1,0 +1,79 @@
+body {
+  background-image: url(./png_logos/MQ_INT_HOR_RGB_POS.png);
+  background-repeat: no-repeat;
+  background-position:top right;
+  background-size: 15%;
+}
+
+.reveal pre code { color: #839496; 
+  background-color: #2B2B2B; } /* use #FDF6E3 for light background */
+ 
+.sourceCode .kw { color: #268BD2; }
+.sourceCode .dt { color: #268BD2; }
+.sourceCode .dv, .sourceCode .bn, .sourceCode .fl { color: #D33682; }
+.sourceCode .ch { color: #DC322F; }
+.sourceCode .st { color: #2AA198; }
+.sourceCode .co { color: #93A1A1; }
+.sourceCode .ot { color: #A57800; }
+.sourceCode .al { color: #CB4B16; font-weight: bold; }
+.sourceCode .fu { color: #268BD2; }
+.sourceCode .re { }
+.sourceCode .er { color: #D30102; font-weight: bold; }
+
+.reveal section img {
+  background:none; 
+  border:none; 
+  box-shadow:none;}
+
+.reveal {
+  font-size: 1em;
+  font-family: 'Quattrocento Sans', 'sans-serif'; }
+
+
+/*
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'EB Garamond', 'serif';
+  font-weight:normal;
+  text-transform: none;
+  text-shadow: none; }
+ 
+.reveal h1 { font-size: 1.2em; }
+.reveal h2 { font-size: 1.0em; }
+.reveal h3 { font-size: 1.0em; }
+.reveal h4 { font-size: 1em; } */
+
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:20%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:80%;
+}
+
+#left50 {
+  left:0.0;
+  top: 10px;
+  text-align: center;
+  float: left;
+  width:50%;
+}
+
+#right50 {
+  left:50.0%;
+  top: 10px;
+  float: right;
+  text-align: center;
+  width:50%;
+}
+
+
